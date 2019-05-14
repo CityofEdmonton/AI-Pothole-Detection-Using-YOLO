@@ -4,8 +4,7 @@
 
 # Setup
 
-This project uses [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Darknet Yolo that runs on Windows and Linux. This [tutorial](https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/) was used as a basis to train the model to detect potholes. I found it beneficial to run through the tutorial completely once before starting on the potholes dataset. The modified files can be found in [this]() Github repository.
-<!-- TODO: Link to this repo -->
+This project uses [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Darknet Yolo that runs on Windows and Linux. This [tutorial](https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/) was used as a basis to train the model to detect potholes. I found it beneficial to run through the tutorial completely once before starting on the potholes dataset. The modified files can be found in [this](https://github.com/CityofEdmonton/AI-Pothole-Detection-Using-YOLO) Github repository.
 
 ## System Description
 
@@ -61,8 +60,7 @@ Project requirements can be found [here](https://github.com/AlexeyAB/darknet#req
 
 # Running the Project
 
-<!-- TODO: Link this repo -->
-The files referenced below can be found in [this repository]().
+The files referenced below can be found in [this repository](https://github.com/CityofEdmonton/AI-Pothole-Detection-Using-YOLO).
 
 1. Fork [this repo](https://github.com/AlexeyAB/darknet) into your Github account and clone it to your local machine.
 2. Ensure that the [requirements](https://github.com/AlexeyAB/darknet#requirement) for this project are met.
@@ -214,12 +212,15 @@ Solution obtained from [this post](https://github.com/pjreddie/darknet/issues/72
 # Datasets and Files
 
 ## Original dataset
+
 Download from [Google Drive](http://goo.gl/Uj38Sf) or their [server](http://staff.ee.sun.ac.za/mjbooysen/Potholes/Slow/).
 
 ## YOLOv2 Formatted Dataset
+
 Download from [Google Drive](http://bit.ly/2vZV8Bj).
 
 ## Project Files
+
 Project files can be found in [this Github repository]().
 <!-- TODO: Include weight files -->
 
