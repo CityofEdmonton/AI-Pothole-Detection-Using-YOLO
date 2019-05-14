@@ -56,7 +56,7 @@ The above information is obtained from [this source](https://github.com/AlexeyAB
 
 ## Other Requirements
 
-Project requirements can be found [here](https://github.com/AlexeyAB/darknet#requirement).
+Project requirements can be found [here](https://github.com/AlexeyAB/darknet#requirements).
 
 # Running the Project
 
