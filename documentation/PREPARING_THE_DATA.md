@@ -1,6 +1,6 @@
 # Preparing the Data - Data Formatting for Custom Objects
 
-**You can skip the steps below by downloading the annotated dataset from [this](http://bit.ly/2vZV8Bj) link.**
+### **You can skip the steps below by downloading the annotated dataset from [this](http://bit.ly/2vZV8Bj) link.**
 
 There should be a text file for every JPEG image file describing the positions of the potholes in the specified image. The text file should have the same name and be in the same directory as the image file. What should be included in the text file:
 

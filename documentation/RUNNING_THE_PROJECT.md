@@ -7,17 +7,17 @@ The files referenced below can be found in [this repository](https://github.com/
 0. Replace the [*Makefile*](https://github.com/AlexeyAB/darknet/blob/master/Makefile) with the one in the repository specified above or configure the file accordingly:
 
    - ```MK
-     GPU=1 # (L1)
+     GPU=1 # (Line 1)
      ```
    - ```MK
-     OPENCV=1 # (L4)
+     OPENCV=1 # (Line 4)
      ```
    - ```MK
-     NVCC=/usr/local/cuda/bin/nvcc # Or the path to your NVCC - (L57)
+     NVCC=/usr/local/cuda/bin/nvcc # Or the path to your NVCC - (Line 57)
      ```
    - ```MK
-     LDFLAGS+= `pkg-config --libs opencv4` # (L79)
-     COMMON+= `pkg-config --cflags opencv4` # (L80)
+     LDFLAGS+= `pkg-config --libs opencv4` # (Line 79)
+     COMMON+= `pkg-config --cflags opencv4` # (Line 80)
      ```
 
 0. Run `make` in the root of the project.
@@ -29,7 +29,7 @@ The files referenced below can be found in [this repository](https://github.com/
 
 0. Label the images in the potholes dataset. The dataset provided in [this link](http://bit.ly/2vZV8Bj) already has the images labelled. Each image should be accompanied by a text file that describes the bounding boxes of the pothole(s) in the image. You can learn more about the format of these labelling files [here](/documentation/PREPARING_THE_DATA.md).
 
-    The directory holding your data should look like this after creating the text files:
+    The directory holding your formatted data should look like this after creating the text files:
 
     ![Formatted Data](/media/images/formatted-data.png?raw=true)
 
