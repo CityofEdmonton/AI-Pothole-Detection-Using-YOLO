@@ -8,7 +8,6 @@ A Linux virtual machine was used to run this project.
 OS: Ubuntu 18.04
 GPU: 1GB
 ```
-<!-- TODO: Get more system descriptions -->
 
 ## Virtual Machine Communication
 
@@ -18,7 +17,7 @@ An SSH connection was used to connect to the virtual machine used to run the pro
 
 Follow [this tutorial](https://docs.opencv.org/4.1.0/d7/d9f/tutorial_linux_install.html) to install OpenCV onto a Linux machine.
 
-If you run into any problems, you can check out the *Troubleshooting* section which highlights some of the problems I've encountered while working on this project.
+If you run into any problems, you can check out the [*Troubleshooting*]() section which highlights some of the problems I've encountered while working on this project.
 
 ## Saving Weights
 

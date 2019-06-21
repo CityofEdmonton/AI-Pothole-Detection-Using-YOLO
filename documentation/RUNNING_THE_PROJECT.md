@@ -3,9 +3,11 @@
 The files referenced below can be found in [this repository](https://github.com/CityofEdmonton/AI-Pothole-Detection-Using-YOLO).
 
 1. Fork [this repo](https://github.com/AlexeyAB/darknet) into your Github account and clone it to your local machine.
-0. Ensure that the [requirements](https://github.com/AlexeyAB/darknet#requirements) for this project are met. Follow the steps in the [Setup]() page to properly configure your environment.
+0. Ensure that the [requirements](https://github.com/AlexeyAB/darknet#requirements) for this project are met. Visit the [Setup]() page for information on setting up your environment.
 0. Label the images in the dataset. The dataset provided in [this link]() already has the images labelled. Each image should be accompanied by a text file that describes the bounding boxes of the pothole(s) in the image. You can learn more about the format of these labelling files [here]().
-![Formatted Data]()
+
+    ![Formatted Data](/media/images/formatted-data.png?raw=true)
+
 0. Replace the [*Makefile*](https://github.com/AlexeyAB/darknet/blob/master/Makefile) with the one in the repository specified above or configure the file accordingly:
 
    - ```MK
