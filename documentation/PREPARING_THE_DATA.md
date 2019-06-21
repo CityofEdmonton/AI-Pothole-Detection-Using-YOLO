@@ -24,6 +24,4 @@ The above information is obtained from [this source](https://github.com/AlexeyAB
 
 *Note*: `<object-class>` should always be `0` in our case since we are only detecting a single `Pothole` class
 
-# Next Step
-
-## > [Running the Project](/documentation/RUNNING_THE_PROJECT.md)
+## Next Step: > [Running the Project](/documentation/RUNNING_THE_PROJECT.md)

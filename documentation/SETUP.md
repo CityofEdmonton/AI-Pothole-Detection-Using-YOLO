@@ -14,6 +14,4 @@ You can configure the frequency to save the trained weights in the [`detector.c`
 
 Further project requirements can be found [here](https://github.com/AlexeyAB/darknet#requirements).
 
-# Next Step
-
-## > [Preparing the Data](/documentation/PREPARING_THE_DATA.md)
+## Next Step: > [Preparing the Data](/documentation/PREPARING_THE_DATA.md)
