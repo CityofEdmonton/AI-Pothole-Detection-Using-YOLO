@@ -1,5 +1,7 @@
 # Preparing the Data - Data Formatting for Custom Objects
 
+**You can skip the steps below by downloading the annotated dataset from [this](http://bit.ly/2vZV8Bj) link.**
+
 There should be a text file for every JPEG image file describing the positions of the potholes in the specified image. The text file should have the same name and be in the same directory as the image file. What should be included in the text file:
 
 `<object-class> <x_center> <y_center> <width> <height>`
@@ -21,3 +23,7 @@ For example for `img1.jpg` you will be creating `img1.txt` containing:
 The above information is obtained from [this source](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects).
 
 *Note*: `<object-class>` should always be `0` in our case since we are only detecting a single `Pothole` class
+
+# Next Step
+
+## > [Running the Project](/documentation/RUNNING_THE_PROJECT.md)

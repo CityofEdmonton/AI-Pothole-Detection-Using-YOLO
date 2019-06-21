@@ -45,13 +45,17 @@ The files referenced below can be found in [this repository](https://github.com/
 
     *Note*: The weights save every 100 iterations until the 1000th iteration, after which it saves every 1000 iterations. The program will also save the weights every 100 iterations as a `<training_config>_last.weights` file
 
-11. To resume training using an existing weight, run:
+    The output from the training should look something like this:
+
+    ![Command Line Output](/media/images/command-line-output.png?raw=true)
+
+0. To resume training using an existing weight, run:
 
     ```
     ./darknet detector train cfg/obj.data cfg/yolo-pothole-train.cfg <last_weight_file>
     ```
 
-12. You should stop training when the mean average precision (mAP) is the **highest**. To get the mAP of a weight:
+0. You should stop training when the mean average precision (mAP) is the **highest**. To get the mAP of a weight:
 
     ```
     ./darknet detector map cfg/obj.data cfg/yolo-pothole-train.cfg <weight_file>
@@ -59,7 +63,7 @@ The files referenced below can be found in [this repository](https://github.com/
 
     Read [here](https://github.com/AlexeyAB/darknet#when-should-i-stop-training) for more info.
 
-13. Once the training is complete, you can test the detection by running:
+0. Once the training is complete, you can test the detection by running:
     - For image files:
 
       ```
