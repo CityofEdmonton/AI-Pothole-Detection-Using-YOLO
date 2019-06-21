@@ -4,6 +4,14 @@
 
 This project uses [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Darknet Yolo that runs on Windows and Linux. This [tutorial](https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/) was used as a basis to train the model to detect potholes. I found it beneficial to run through the tutorial completely once before starting on the potholes dataset. The modified files can be found in [this Github repository](https://github.com/CityofEdmonton/AI-Pothole-Detection-Using-YOLO).
 
+# Contents
+
+- ## [Setup](/documentation/SETUP.md)
+- ## [Preparing the Data](/documentation/PREPARING_THE_DATA.md)
+- ## [Running the Project](/documentation/RUNNING_THE_PROJECT.md)
+- ## [Dataset and Files](/documentation/DATASET_AND_FILES.md)
+- ## [Troubleshooting](/documentation/troubleshooting/TROUBLESHOOTING.md)
+
 # Results
 
 *Images to be added...*
