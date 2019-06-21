@@ -4,10 +4,6 @@ The files referenced below can be found in [this repository](https://github.com/
 
 1. Fork [this repo](https://github.com/AlexeyAB/darknet) into your Github account and clone it to your local machine.
 0. Ensure that the [requirements](https://github.com/AlexeyAB/darknet#requirements) for this project are met. Visit the [Setup](/documentation/RUNNING_THE_PROJECT.md) page for information on setting up your environment.
-0. Label the images in the dataset. The dataset provided in [this link]() already has the images labelled. Each image should be accompanied by a text file that describes the bounding boxes of the pothole(s) in the image. You can learn more about the format of these labelling files [here]().
-
-    ![Formatted Data](/media/images/formatted-data.png?raw=true)
-
 0. Replace the [*Makefile*](https://github.com/AlexeyAB/darknet/blob/master/Makefile) with the one in the repository specified above or configure the file accordingly:
 
    - ```MK
@@ -30,6 +26,12 @@ The files referenced below can be found in [this repository](https://github.com/
    ```
    usage: ./darknet <function>
    ```
+
+0. Label the images in the potholes dataset. The dataset provided in [this link](http://bit.ly/2vZV8Bj) already has the images labelled. Each image should be accompanied by a text file that describes the bounding boxes of the pothole(s) in the image. You can learn more about the format of these labelling files [here](/documentation/PREPARING_THE_DATA.md).
+
+    The directory holding your data should look like this after creating the text files:
+
+    ![Formatted Data](/media/images/formatted-data.png?raw=true)
 
 0. Place the files `obj.data`, `obj.names`, `yolo-pothole-test.cfg`, and `yolo-pothole-train.cfg` in the `cfg/` directory of the project.
 0. Import the formatted data with both the JPEG and text files into the ```data/Pothole/``` directory. This directory will have to be created.
@@ -74,4 +76,4 @@ The files referenced below can be found in [this repository](https://github.com/
       Here's a [reference](https://github.com/pjreddie/darknet/issues/102#issuecomment-413264294) to the command
 
 
-Check out the [*Troubleshooting*]() section if you run into any problems.
+Check out the [*Troubleshooting*](/documentation/troubleshooting/TROUBLESHOOTING.md) section if you run into any problems.
