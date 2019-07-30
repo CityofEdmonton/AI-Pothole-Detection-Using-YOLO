@@ -14,11 +14,14 @@ This project uses [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Dark
 
 # Results
 
+## Images
 |||
 |-|-|
-|![Image_1](/media/images/Pothole_Detection_1.jpg)|![Image_2](/media/images/Pothole_Detection_2.jpg)|
+|![Image_1](/media/images/Pothole_Detection_1.jpg)|[![Image_2](/media/images/Pothole_Detection_2.jpg)](https://github.com/sekilab/RoadDamageDetector)|
 |![Image_3](/media/images/Test_Image_1.jpg)|![Image_3_Detection](/media/images/Results_1.jpg)|
 |![Image_4](/media/images/Test_Image_2.jpg)|![Image_4_Detection](/media/images/Results_2.jpg)|
+
+## Videos
 
 [![Video_1](/media/gifs/Pothole_Detection_1.gif)](/media/videos/Pothole_Detection_1.mp4)
 
