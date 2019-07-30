@@ -17,7 +17,7 @@ This project uses [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Dark
 ## Images
 |||
 |-|-|
-|![Image_1](/media/images/Pothole_Detection_1.jpg)|[![Image_2](/media/images/Pothole_Detection_2.jpg)](https://github.com/sekilab/RoadDamageDetector)|
+|[![Image_1](/media/images/Pothole_Detection_1.jpg)](https://info.kaltire.com/wp-content/uploads/2015/03/Feb-3-Avoid-Tire-Damage.jpg)|[![Image_2](/media/images/Pothole_Detection_2.jpg)](https://github.com/sekilab/RoadDamageDetector)|
 |![Image_3](/media/images/Test_Image_1.jpg)|![Image_3_Detection](/media/images/Results_1.jpg)|
 |![Image_4](/media/images/Test_Image_2.jpg)|![Image_4_Detection](/media/images/Results_2.jpg)|
 
