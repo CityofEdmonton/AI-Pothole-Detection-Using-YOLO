@@ -11,4 +11,3 @@ Download from [Google Drive](http://bit.ly/2vZV8Bj).
 ### Project Files
 
 Project files can be found in [this Github repository](https://github.com/CityofEdmonton/AI-Pothole-Detection-Using-YOLO).
-<!-- TODO: Include weight files -->
